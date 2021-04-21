@@ -22,10 +22,10 @@ pipeline {
             echo 'Running...'
             script {
               if (2+2!=4) {
-                 println "buu !"
+                 println ("buu !");
               }
               else {
-                println "jeeej :)"
+                println ("jeeej :)");
               }
             }
           }
